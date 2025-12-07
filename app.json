@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "PocketForms",
+    "slug": "pocketforms",
+    "version": "1.0.0",
+    "scheme": "pocketforms",
+    "plugins": ["expo-router", "expo-image-picker", "expo-location"],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.pocketforms",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app uses your location to attach coordinates to records for map display.",
+        "NSCameraUsageDescription": "This app uses the camera to attach photos to records.",
+        "NSPhotoLibraryUsageDescription": "This app needs photo library access to select images for records."
+      }
+    },
+    "android": {
+      "package": "com.yourname.pocketforms",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "category": ["BROWSABLE", "DEFAULT"],
+          "data": [{ "scheme": "pocketforms" }]
+        }
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

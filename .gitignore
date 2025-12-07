@@ -1,0 +1,53 @@
+# Expo / React Native ignores
+node_modules/
+dist/
+.expo/
+.expo-shared/
+web-build/
+.android/
+.ios/
+build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Metro bundler cache
+metro-cache/
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+.env.local
+.env.development
+.env.production
+
+# VSCode configs
+.vscode/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.temp
+
+# Generated assets
+*.apk
+*.aab
+*.app
+
+# Xcode
+*.xccheckout
+*.xcworkspace
+*.xcuserstate
+xcuserdata/
+DerivedData/
+
+# Android / Gradle
+.gradle/
+local.properties
