@@ -1,4 +1,4 @@
-# PocketForms — Mobile Form Builder & Data Collection App
+# PocketForms: Mobile Form Builder & Data Collection App
 
 PocketForms is a cross-platform mobile application built with **Expo Router** and **React Native**.  
 It enables users to design custom forms, define dynamic field types, and record structured data on-device — including photos and GPS coordinates.
