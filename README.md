@@ -14,7 +14,7 @@ Backend configuration is abstracted so PocketForms can connect to any REST-style
 |---------|--------------|
 | **Form Management** | Create, edit, and delete forms |
 | **Dynamic Field Builder** | Text, Number, Dropdown, Image, GPS Location fields |
-| **Record Entry** | Input validation, photo capture, real-time GPS data |
+| **Record Entry** | Input validation, photo capture, real-time GPS data (not fully integrated yet) |
 | **Filtering** | Basic AND/OR filters for stored records |
 | **Data Export** | Copy record JSON to clipboard |
 | **Map View** | Plot records with coordinate data *(prototype)* |
